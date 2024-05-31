@@ -2,54 +2,151 @@
     background-color: #CAF4FF;
     position: relative;
     padding: 100px;
+    
+}
+
+.middle-container{
+    margin: 100px 0;
+}
+
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 20px;
+}
+
+a{
+    color: #11999E;
+    font-family: "Montserrat", sans-serif;
+    margin: 20px;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #EAf6f6;
 }
 
 h1{
     margin: 0;
     font-family: "Sacramento", cursive;
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #66BFBF
 }
 
 h2{
     font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding: 10px;
+
 }
 
 h3{
     font-family: "Montserrat", sans-serif;
+    color: #11999E;
 }
 
 body { margin: 0;
     text-align: center; 
     font-family: "Merriweather",serif;
+    color: #40514e;
 }
 
 .top-cloud{
     position: absolute;
-    right: 400px;
+    right: 250px;
     top: 50px;
 }
 
 .bottom-cloud{
     position: absolute;
-    bottom: 410px;
-    left: 360px;
+    bottom: 450px;
+    left: 300px;
 
+}
+
+.intro{
+        width: 30%;
+        margin: auto;
 }
 
 .pro{
     text-decoration: underline;
 }
 
-
-
-
-.middle-container{
-    height: 200px;
+.ahmedpic{
     width: 200px;
-    background-color: red;
+    border-radius: 50%;
 }
 
-.bottom-container{
-    height: 200px;
-    width: 200px;
-    background-color: yellow;
+/*
+.footer-link{
+    background-color: #11999E;
+    width: 10px;
+
 }
+*/
+.skill-row{
+        width: 50%;
+        margin: 100px auto 100px auto;
+        text-align: left;
+        line-height: 2;
+}
+
+.code-img{
+
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+
+}
+
+.fire-img{
+
+    width: 25%;
+    float: right;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: dotted #EAf6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin-top:50px;
+}
+
+.contact-me{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.copyright{
+    color: #ffffff;
+}
+
+.btn{
+        background: #3498db;
+        background-image: -webkit-linear-gradient(top, #3498db, #7129b9);
+        background-image: -moz-linear-gradient(top, #3498db, #7129b9);
+        background-image: -ms-linear-gradient(top, #3498db, #7129b9);
+        background-image: -o-linear-gradient(top, #3498db, #7129b9);
+        background-image: linear-gradient(to bottom, #3498db, #7129b9);
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 20px;
+        padding: 10px 20px;
+        text-decoration: none;
+      }
+      
+      .btn:hover {
+        background: #3cb0fd;
+        text-decoration: none;
+      }
